@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.head-footer{
+    width: 100%;
+    height: 40px;
+    background-color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;    
+}
+
+.head-footer > p{
+    font-weight: 600;
+}
+
+.head-footer > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-cont{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.footer-cont > div > p{
+    font-size: 12px;
+}
+
+.headers-tag{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer-boxes > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.und-ln:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.details{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hr-row{
+    color: gray;
+    border: 2px solid gray;
+    width: 90%;
+}
+
+.text-hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hvr:hover{
+    color-scheme: rgb(71, 70, 70);
+}
+
+
+.end-footer-cont{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.address{
+    padding: 10px;
+}

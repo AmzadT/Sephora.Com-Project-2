@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.head{
+    background-color: #eadfff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span{
+    font-weight: 600;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+p{
+    font-weight: 300;
+    font-size: 14px;
+    word-spacing: 2px;
+}

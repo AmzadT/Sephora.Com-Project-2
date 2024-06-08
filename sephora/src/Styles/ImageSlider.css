@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.slider-container1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.box-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.cards1 {
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards1 > img {
+  width: 545px;
+  height: 365px;
+  border-radius: 5px;
+}
+
+
+.cards1:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 4px 8px 0px, rgba(60, 64, 67, 0.15) 0px 6px 12px 4px;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 10;
+}
+
+.slider-button.left1 {
+  left: 50px;
+  font-size: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.slider-button.right1 {
+  right: 60px;
+  font-size: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+.cards1 > p{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bolder1{
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+.down-box1{
+  background-color: #fae3a0;
+  color: black;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.down-box2{
+  background-color: #fcebc8;
+  color: black;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.down-box3{
+  background-color: black;
+  color: white;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.down-box4{
+  background-color: #944e4e;
+  color: white;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.down-box5{
+  background-color: black;
+  color: white;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.down-box6{
+  background-color: #dbb0e6;
+  color: black;
+  height: 160px;
+  margin-top: -17px;  
+  text-align: center;
+  padding: 10px;
+}
+
+.cards1:hover{
+   text-decoration: underline;
+}
+
+.cards1 > div > span,h2{
+  line-height: 5px;
+  margin-top: 30px;
+}
+

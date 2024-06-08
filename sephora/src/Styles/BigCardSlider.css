@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.big-card-cont{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    cursor: pointer;
+}
